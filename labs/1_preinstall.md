@@ -5,7 +5,7 @@
 <echo "vm.swappiness = 1" >> /etc/sysctl.conf>
 
 <output - sysctl vm.swappiness>
-![alt text](https://user-images.githubusercontent.com/31971450/43106171-efd989c2-8ead-11e8-93fd-b59f12425490.PNG)
+![github-small](https://user-images.githubusercontent.com/31971450/43106171-efd989c2-8ead-11e8-93fd-b59f12425490.PNG)
 ```
 
 ```
