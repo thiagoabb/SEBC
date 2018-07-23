@@ -5,7 +5,7 @@
 <echo "vm.swappiness = 1" >> /etc/sysctl.conf>
 
 <output - sysctl vm.swappiness>
-![Cat](https://github.com/thiagoabb/SEBC/labs/png/dumpefs.PNG)
+![alt text](https://user-images.githubusercontent.com/31971450/43106171-efd989c2-8ead-11e8-93fd-b59f12425490.PNG)
 ```
 
 ```
