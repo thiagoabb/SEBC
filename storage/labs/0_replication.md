@@ -54,8 +54,8 @@ Status: HEALTHY
  Number of data-nodes:          3
  Number of racks:               1
 FSCK ended at Tue Jul 24 22:30:33 UTC 2018 in 3 milliseconds
-
-
+```
+```
 hdfs fsck /thiago/origin -files -blocks
 < outputs >
 Connecting to namenode via http://cloudera2.3myyf0oxarxezaohzgk2qozj0c.cx.internal.cloudapp.net:50070
