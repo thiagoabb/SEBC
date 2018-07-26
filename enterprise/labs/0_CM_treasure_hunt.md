@@ -18,7 +18,7 @@ ADMINITRATION -> SECURITY -> CONFIGURATION -> security_realm
 <Q>
 Which CDH service(s) host a property for enabling Kerberos authentication?
 <A>
-HUE , HIVE , IMPALA
+HDFS , YARN
 ```
 ```
 <Q>
@@ -51,16 +51,11 @@ WebHcat Server
 <Q>
 What steps must be completed before integrating Cloudera Manager with Kerberos?
 <A>
-https://www.cloudera.com/documentation/enterprise/latest/topics/cm_sg_using_cm_sec_config.html
-Step 1: Verify Requirements and Assumptions
-Step 2. Create Principal for Cloudera Manager Server in the Kerberos KDC
-Step 3: Add the Credentials for the Principal to the Cluster
-Step 4: Identify Default Kerberos Realm for the Cluster
-Step 5: Stop all Services
-Step 6. Specify Kerberos for Security
-Step 7: Restart All Services
-Step 8: Deploy Client Configurations
-Step 9: Create the HDFS Superuser Principal
-Step 11: Prepare the Cluster for Each User
-Step 12: Verify Successful Kerberos Integration
+
+ Setup KDC (Local or AD)
+ KDC condigured with non-zero lifetime ( + renewable propertie )
+ If using AD, openladp libs must be installed 
+ Admin Account for Cloudera manager, to manage de service credentials
+ Download Unlimited JCE policy (Aes 256 )
 ```
+<center> <img src="../labs/png/kerberos.PNG"/> </center>
