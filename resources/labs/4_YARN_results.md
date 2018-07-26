@@ -1,5 +1,9 @@
 # Lab 7 Yarn result tests
 ```
+< It was taken alot of time with 512000000 lines, so i have reduce one 0 for the tests> 
+```
+
+```
 < lowest >
 Testing loop started on Wed Jul 25 00:00:23 UTC 2018
 MAPPER CONTAINNERS: 2
