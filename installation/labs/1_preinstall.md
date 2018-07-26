@@ -8,7 +8,7 @@ echo "vm.swappiness = 1" >> /etc/sysctl.conf
 output - sysctl vm.swappiness
 
 ![link](https://github.com/thiagoabb/SEBC/tree/master/installation/labs/png/swappiness.PNG)
-
+![Screenshot](https://github.com/thiagoabb/SEBC/tree/master/installation/labs/png/swappiness.PNG)
 ----------------------------------
 
 <div style="page-break-after: always;"></div>
