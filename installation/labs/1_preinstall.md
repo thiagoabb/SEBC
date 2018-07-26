@@ -5,9 +5,9 @@ sysctl vm.swappiness=1
 echo "vm.swappiness = 1" >> /etc/sysctl.conf
 
 output - sysctl vm.swappiness
-
-![link](https://github.com/thiagoabb/SEBC/tree/master/installation/labs/png/swappiness.PNG)
 ```
+![link](https://github.com/thiagoabb/SEBC/tree/master/installation/labs/png/swappiness.PNG)
+
 
 ```
 <hugepages config>
