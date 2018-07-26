@@ -18,7 +18,7 @@ ADMINITRATION -> SECURITY -> CONFIGURATION -> security_realm
 <Q>
 Which CDH service(s) host a property for enabling Kerberos authentication?
 <A>
-HDFS , YARN
+HDFS , YARN, zookeeper
 ```
 ```
 <Q>
