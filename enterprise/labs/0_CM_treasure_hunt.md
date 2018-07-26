@@ -58,4 +58,4 @@ What steps must be completed before integrating Cloudera Manager with Kerberos?
  Admin Account for Cloudera manager, to manage de service credentials
  Download Unlimited JCE policy (Aes 256 )
 ```
-<center> <img src="../labs/png/kerberos.PNG"/> </center>
+<center> <img src="../png/kerberos.PNG"/> </center>
