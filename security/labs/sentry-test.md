@@ -42,6 +42,18 @@ INFO  : OK
 +------------+--+
 ```
 
+```
+< George/Ferdinand Roles>
+CREATE ROLE reads;
+CREATE ROLE writes;
+Grant read privilege for all tables to reads
+GRANT SELECT ON DATABASE default TO ROLE reads;
+GRANT ROLE reads TO GROUP selector;
+Grant INSERT privilege for default.sample07 to 'writes':
+REVOKE ALL ON DATABASE default FROM ROLE writes;
+GRANT INSERT ON default.sample_07 TO ROLE writes;
+GRANT ROLE writes TO GROUP inserters; 
+```
 
 ```
 <George validation>
