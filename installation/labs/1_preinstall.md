@@ -1,15 +1,15 @@
 # Lab 1 pre-install configs md
 <div style="page-break-after: always;"></div>
-
+----------------------------------
 <swappines config>
 sysctl vm.swappiness=1
 echo "vm.swappiness = 1" >> /etc/sysctl.conf
 
 output - sysctl vm.swappiness
 
-![alt text](https://github.com/thiagoabb/SEBC/tree/master/installation/labs/png/swappiness.PNG)
+![link](https://github.com/thiagoabb/SEBC/tree/master/installation/labs/png/swappiness.PNG)
 
-
+----------------------------------
 
 <div style="page-break-after: always;"></div>
 
