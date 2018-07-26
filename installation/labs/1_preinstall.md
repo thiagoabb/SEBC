@@ -1,14 +1,14 @@
 # Lab 1 pre-install configs md
-```
+
 <swappines config>
 sysctl vm.swappiness=1
 echo "vm.swappiness = 1" >> /etc/sysctl.conf
 
-```
 output - sysctl vm.swappiness
 [https://github.com/thiagoabb/SEBC/tree/master/installation/labs/png/swappiness.PNG][website]
-[website]:https://github.com/thiagoabb/SEBC/tree/master/installation/labs/png/swappiness.PNG
+<!-- https://github.com/thiagoabb/SEBC/tree/master/installation/labs/png/swappiness.PNG -->
 
+<div style="page-break-after: always;"></div>
 
 ```
 <hugepages config>
