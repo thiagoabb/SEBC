@@ -58,3 +58,29 @@ openlogic/x86_64                                        CentOS-7 - openlogic pac
 updates/x86_64                                          CentOS-7 - Updates                                                               1,004
 repolist: 11,387
 ```
+
+```
+<create users and groups>
+sudo groupadd tunnel
+sudo groupadd bridge
+sudo useradd -u 2150 -g bridge goldengate
+sudo useradd -u 2250 -g tunnel caldecott
+
+
+[root@cloudera-1 UnlimitedJCEPolicy]# cat /etc/passwd | grep goldengate
+goldengate:x:2150:1002::/home/goldengate:/bin/bash
+
+[root@cloudera-1 UnlimitedJCEPolicy]# cat /etc/passwd | grep caldecott
+caldecott:x:2250:1001::/home/caldecott:/bin/bash
+```
+
+```
+<assing user to group>
+usermod -aG bridge goldengate
+usermod -aG tunnel caldecott
+
+[root@cloudera-1 UnlimitedJCEPolicy]# cat /etc/group | grep tunnel
+tunnel:x:1001:caldecott
+[root@cloudera-1 UnlimitedJCEPolicy]# cat /etc/group | grep bridge
+bridge:x:1002:goldengate
+```
