@@ -28,7 +28,7 @@ Basic install
 
 If you could add one subject to the class, what would it be?
 ```
-basic install
+
 ```
 
 How much time do you think you will need to be able to install a cluster by yourself (no help, no mentoring)?
